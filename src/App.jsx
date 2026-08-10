@@ -1,5 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import logoImg from './assets/logo.png'
+import heroBg from './assets/hero-bg.png'
+import pdfEditorMockup from './assets/pdf-editor-mockup.png'
+import tabLogo from './assets/tab-logo.png'
 import emailjs from '@emailjs/browser'
 
 /* ─── Inline SVG Icons ─── */
@@ -174,7 +177,7 @@ function Hero() {
 
       {/* Edge-to-Edge Glowing Background */}
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <img src={`${import.meta.env.BASE_URL}hero-bg.png`} alt="Abstract glowing background" className="w-full h-full object-cover opacity-30" />
+        <img src={heroBg} alt="Abstract glowing background" className="w-full h-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-transparent to-[#0A0A0A]" />
         <div className="absolute top-1/4 left-1/6 w-[600px] h-[600px] bg-[#C4582A]/15 rounded-full blur-[180px]" />
         <div className="absolute bottom-1/4 right-1/6 w-[650px] h-[650px] bg-[#4A1A0A]/40 rounded-full blur-[200px]" />
@@ -265,7 +268,7 @@ function Hero() {
               {/* Product Screenshot */}
               <div className="p-6 bg-black/70">
                 <img
-                  src={`${import.meta.env.BASE_URL}pdf-editor-mockup.png`}
+                  src={pdfEditorMockup}
                   alt="Fast PDF Editor Studio"
                   className="w-full h-auto rounded-2xl border border-white/10 shadow-2xl"
                 />
@@ -492,7 +495,7 @@ function Products() {
             {/* Right Mockup Display Column */}
             <div className="lg:col-span-6 bg-gradient-to-br from-[#4A1A0A]/40 to-black p-10 flex items-center justify-center border-t lg:border-t-0 lg:border-l border-white/10">
               <img
-                src={`${import.meta.env.BASE_URL}pdf-editor-mockup.png`}
+                src={pdfEditorMockup}
                 alt="Fast PDF Editor Studio Interface"
                 className="w-full max-w-lg rounded-2xl border border-white/15 shadow-2xl"
               />
@@ -717,7 +720,7 @@ export default function App() {
     const link = document.createElement('link')
     link.rel = 'icon'
     link.type = 'image/png'
-    link.href = `${import.meta.env.BASE_URL}tab-logo.png?v=` + Date.now()
+    link.href = tabLogo
     document.head.appendChild(link)
   }, [])
 
