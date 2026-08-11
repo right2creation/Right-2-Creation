@@ -199,13 +199,13 @@
       text-decoration: none;
     }
     .nav-logo-img {
-      height: 36px;
+      height: 40px;
       width: auto;
-      border-radius: 8px;
       object-fit: contain;
-      box-shadow: 0 0 20px rgba(196,88,42,0.4);
-      animation: logoPulse 3s ease-in-out infinite alternate;
+      mix-blend-mode: screen;
+      transition: opacity 0.2s;
     }
+    .nav-logo:hover .nav-logo-img { opacity: 0.85; }
     @keyframes logoPulse {
       from { box-shadow: 0 0 15px rgba(196,88,42,0.3); }
       to   { box-shadow: 0 0 30px rgba(232,103,60,0.6); }
