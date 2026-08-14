@@ -3,8 +3,6 @@ Add-Type -AssemblyName System.Drawing
 $logoPath = "d:\R2C\src\assets\logo.png"
 $outputPath = "d:\R2C\public\tab-logo.png"
 $faviconPath = "d:\R2C\public\favicon.ico"
-$faviconPng = "d:\R2C\public\favicon.png"
-$appleIcon = "d:\R2C\public\apple-touch-icon.png"
 
 $logo = [System.Drawing.Image]::FromFile($logoPath)
 $size = 128
@@ -49,10 +47,8 @@ $logo.Dispose()
 $path.Dispose()
 $gradBrush.Dispose()
 
-# Save to all favicon formats
+# Save to favicon formats
 $bmp.Save($outputPath, [System.Drawing.Imaging.ImageFormat]::Png)
-$bmp.Save($faviconPng, [System.Drawing.Imaging.ImageFormat]::Png)
-$bmp.Save($appleIcon, [System.Drawing.Imaging.ImageFormat]::Png)
 $bmp.Save($faviconPath, [System.Drawing.Imaging.ImageFormat]::Icon)
 $bmp.Dispose()
 
