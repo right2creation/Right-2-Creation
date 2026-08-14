@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
-import logoImg from './assets/logo.png'
-import heroBg from './assets/hero-bg.png'
-import pdfEditorMockup from './assets/pdf-editor-mockup.png'
+import logoImg from './assets/logo.webp'
+import heroBg from './assets/hero-bg.webp'
+import pdfEditorMockup from './assets/pdf-editor-mockup.webp'
 import tabLogo from './assets/tab-logo.png'
 import emailjs from '@emailjs/browser'
 
