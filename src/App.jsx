@@ -193,16 +193,16 @@ function Hero() {
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12] text-white">
-              We Build{' '}
+              Innovative{' '}
               <span className="bg-gradient-to-r from-[#C4582A] via-[#E8673C] to-[#F08060] bg-clip-text text-transparent">
-                Digital Products
+                Software Products
               </span>{' '}
-              That Matter.
+              & Digital Solutions
             </h1>
 
             {/* Paragraph */}
             <p className="text-gray-300 text-base sm:text-lg lg:text-xl max-w-2xl leading-relaxed font-normal">
-              Right 2 Creation is a premier software company creating high-performance developer tools, AI applications, and SaaS platforms engineered for user delight and real utility.
+              Right 2 Creation builds innovative software products and digital solutions designed to make everyday tasks simpler, faster, and more productive — from high-performance PDF tools to AI-powered vector studios.
             </p>
 
             {/* CTA Buttons */}
@@ -462,7 +462,7 @@ function Products() {
               </h3>
 
               <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
-                A free online PDF studio featuring vector canvas editing, AI text alignment, OCR scanning, signatures, and instant client-side document export.
+                Edit, manage, and organize PDF documents online with the Right 2 Creation Fast PDF Editor. A free online PDF studio featuring vector canvas editing, AI text alignment, OCR scanning, e-signatures, and instant client-side document processing.
               </p>
 
               {/* Tag Pills */}
