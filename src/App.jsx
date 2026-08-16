@@ -543,7 +543,7 @@ function Contact() {
     if (!form.name || !form.email || !form.subject || !form.message) return
 
     setIsSending(true)
-    emailjs.sendForm('service_en4ueqg', 'template_ed9t5ym', formRef.current, '5wQ_5m2ipo7kjiTyq')
+    emailjs.sendForm('service_wyhwl8d', 'template_kizyqxr', formRef.current, 'f4nV13OenSc0AroXs')
       .then((result) => {
         setSubmitted(true)
         setForm({ name: '', email: '', subject: '', message: '' })
