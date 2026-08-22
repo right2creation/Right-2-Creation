@@ -36,10 +36,13 @@
     content="Right 2 Creation is a software product company building innovative digital solutions and products." />
   <meta name="twitter:image" content="https://right2creation.in/pdf-editor-mockup.png" />
 
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" href="/tab-logo.png?v=300" />
-  <link rel="shortcut icon" href="/tab-logo.png?v=300" />
-  <link rel="apple-touch-icon" href="/tab-logo.png?v=300" />
+  <!-- Favicons for Modern Browsers, Mobile & Google Search -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
   <!-- Structured Data: WebSite & Organization for Google Search Site Name & Logo -->
   <script type="application/ld+json">
@@ -58,7 +61,12 @@
         "@id": "https://right2creation.in/#organization",
         "name": "Right 2 Creation",
         "url": "https://right2creation.in/",
-        "logo": "https://right2creation.in/tab-logo.png"
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://right2creation.in/logo.png",
+          "width": 1254,
+          "height": 1254
+        }
       }
     ]
   }
