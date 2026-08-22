@@ -6,7 +6,7 @@ import { BLOG_POSTS } from '../data/blogPosts'
 
 export default function HomePage() {
   useSeo({
-    title: 'Right 2 Creation | Innovative Software Products & Digital Solutions',
+    title: 'Right 2 Creation',
     description: 'Right 2 Creation is an innovative software product company building next-generation digital tools, privacy-first PDF editing software, and modern web applications.',
     canonicalUrl: 'https://right2creation.in/'
   })
